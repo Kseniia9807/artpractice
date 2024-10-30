@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "HankenGrotesk-Regular.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-Light.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-Bold.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Bold.ttf);
+    font-weight:700;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-ExtraBold.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-ExtraBold.ttf);
+    font-weight:800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "HankenGrotesk-Black.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Black.ttf);
+    font-weight:900;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-Thin.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Thin.ttf);
+    font-weight:250;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-SemiBold.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-SemiBold.ttf);
+    font-weight:600;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-Medium.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Medium.ttf);
+    font-weight:500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-ExtraLight.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-ExtraLight.ttf);
+    font-weight: 250;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-Italic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-Italic.ttf);
+    font-weight:400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-LightItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-LightItalic.ttf);
+    font-weight:300;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-BoldItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-BoldItalic.ttf);
+    font-weight:300;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-BlackItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-BlackItalic.ttf);
+    font-weight:900;
+    font-style: normal; 
+}
+@font-face{
+    font-family: "HankenGrotesk-ThinItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-ThinItalic.ttf);
+    font-weight:250;
+    font-style: normal;  
+}
+@font-face{
+    font-family: "HankenGrotesk-SemiBoldItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-SemiBoldItalic.ttf);
+    font-weight:300;
+    font-style: normal;  
+}
+@font-face{
+    font-family: "HankenGrotesk-MediumItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-MediumItalic.ttf);
+    font-weight:300;
+    font-style: normal;  
+
+}
+@font-face{
+    font-family: "HankenGrotesk-ExtraLightItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-ExtraLightItalic.ttf);
+    font-weight: 250;
+    font-style: normal;
+}
+@font-face{
+    font-family: "HankenGrotesk-ExtraBoldItalic.ttf";
+    src:url(../fonts/Hanken_Grotesk/static/HankenGrotesk-ExtraBoldItalic.ttf);
+    font-weight:800;
+    font-style: normal;
+}

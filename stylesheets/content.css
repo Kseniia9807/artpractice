@@ -1,0 +1,871 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.main{
+    width: 1280px;
+    
+    position: relative;
+    margin: 0 auto;
+}
+
+.title{
+font-family: "HankenGrotesk-Regular.ttf";
+font-size: 64px;
+text-align: center;
+padding-top: 46px;
+
+}
+.secondtitle{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 16px;
+    text-align: center;
+    margin-top: 21px;
+}
+/* .entrance{
+    
+    
+} */
+.name{
+    width: 482px;
+    height: 216px;
+    margin-left: 393px;
+    border: 1px black solid;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+}
+.block1{
+    width: 1280px;
+    height: auto;
+}
+.door{
+    position: absolute;
+    top: 20px;
+}
+.door{
+    position: absolute;
+    top: 372px;
+    left: 540px;
+    height: 371px;
+    width: 201px;
+    border: 3px black solid;
+    background-color: white;
+}
+
+.list{
+    position: relative;
+    border: 1px black solid;
+    width: 88.212px;
+    height: 43.797px;
+    rotate: 5.55deg;
+    margin-left: 52.76px;
+    margin-top: 105.95px;
+    background-color: white;
+}
+.year{
+    font-family: "HankenGrotesk-Italic.ttf";
+    font-size: 13px;
+    text-align: center;
+    margin-top: 6px;
+}
+.dot1{
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    border: 1px black solid;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+
+}
+.dot2{
+    position:absolute;
+    top: 205px;
+    left: 161px;
+    right: 17px;
+    background-color: black;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+}
+.wire{
+    position: absolute;
+    top: 61px;
+    left: 57px;
+    rotate: 0deg;
+    height: 51.1px;
+    width: 88.212px;
+}
+.poster1{
+    position: absolute;
+    top: 240px;
+    left: 103px;
+    width: 236px;
+    height: 350px;
+    
+}
+.poster2{
+    position: absolute;
+    top: 240px;
+    left: 943px;
+    width: 236px;
+    height: 350px;
+}
+.overflow{
+    overflow: hidden;
+    width:1280px;
+    height: auto
+}
+.block2{
+    position: relative;
+  
+    width: 1280px;
+    height: 603px;
+    
+    
+     
+}
+.company{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 64px;
+    position: absolute;
+    left: 334px;
+    top: 13px;
+    margin-top: 64px;
+    
+    line-height: 83.39px;
+}
+.text1{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 24px;
+    position: absolute;
+    top: 206px;
+    left: 859px;
+    line-height: 31.27px;
+}
+
+
+.clock{
+    position: absolute;
+    
+    top: 120px;
+    left: 48px;
+}
+
+.smallbox{
+    width: 257px;
+    height: 345px;
+    rotate: 21.04deg;
+    position: absolute;
+    top: 250px;
+    left: 476px;
+    
+}
+.tableclock{
+    border: 3px black solid;
+    width: 481px;
+    height: 210px;
+    position: absolute;
+    left: 721px;
+    top: 375px;
+    
+}
+.l{
+    border: 1px black solid;
+    width: 261px;
+    height: 147px;
+    margin-left: 186px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.column1{
+    display: flex;
+    flex-direction:column;
+}
+.date{
+    font-family: "HankenGrotesk-Black.ttf";
+    margin-top: -9px;
+    margin-left: 34px;
+    background-color: white;
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+}
+.eight{
+    font-family: "HankenGrotesk-Regular.ttf";
+    width: 95px;
+    height: 105px;
+    background-color: black;
+    margin-top: 9px;
+    margin-left: 12px;
+    
+    
+    
+}
+.eight p{
+    color: white;
+    font-size: 70px;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.day{
+    font-family: "HankenGrotesk-Black.ttf";
+    margin-top: -9px;
+    margin-left: 66px;
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    font-size: 12px
+}
+.tablenumbers{
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    /*заменить если получится*/
+}
+.column2{
+    display: flex;
+    flex-direction:column;
+}
+.mon{
+    font-family: "HankenGrotesk-Medium.ttf";
+    width: 111px;
+    height: 105px;
+    background-color: black;
+    margin-top: 9px;
+    margin-left: 30px;
+
+}
+.mon p{
+    color: white;
+    font-size: 45px;
+    margin-top: 27px;
+    margin-left: 4px;
+
+}
+.line1{
+    border: 7px #EBE8E8 solid;
+    width: 1280px;
+    position: absolute;
+    margin-left: 0px;
+    top: 596px;
+}
+.block3{
+    width: 1280px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    position:relative;
+    
+}
+.text2{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 24px;
+    
+    margin-top: 63px;
+    margin-left: 99px;
+    line-height: 31.27px;
+}
+/*.box{
+    border: 2px black solid;
+    background-color: white;
+    height: 580px;
+    width: 580px;
+    rotate: -38deg;*/
+    
+    /*-webkit-transform: rotate(-38deg);*/
+    /*left: 165px;*/
+    /*margin-top: -700px;*/
+    /*overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+.boxtext{
+    display: flex;
+    flex-direction: column;
+}
+.clockstext{
+    font-family: "HankenGrotesk-Bold.ttf";
+    font-size: 64px;
+
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.classic{
+    font-family: "HankenGrotesk-MediumItalic.ttf";
+    font-size: 24px;
+    margin-top: 0px;
+    margin-left: 72px;
+}
+.size{
+    font-family: "HankenGrotesk-Light.ttf";
+    rotate: -90deg;
+    margin-left: 209px;
+    margin-top: 200px
+}
+.handle{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 32px;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+.boxim{
+    margin-left: -270px;
+}
+/* .fontstyle{
+    display: flex;
+    flex-direction: row;
+} */
+ /*.box{
+    width: 580px;
+    height: 580px;
+ }*/
+.box{
+    margin-top: -190px;
+    margin-left: 673px;
+    width: 780px;
+    height: 780px;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 61px;
+    margin-top: -500px;
+    
+}
+ .box1{
+    border: 3px black solid;
+    background-color:white;
+    width: 525px;
+    height: 128px;
+    margin-left: 35px;  
+    /*display: flex;
+    justify-content: center;
+    margin-left: 99px;
+    margin-top: -400px*/
+    
+} 
+.inside{
+    border: 2px black solid;
+    width: 497px;
+    height: 96px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    margin-left: 14px;
+    
+}
+.ci{
+    border: 1px black solid;
+    width: 104px;
+    height: 96px;  
+}
+.thin{
+    border: 1px black solid;
+    width: 188px;
+    height: 96px;
+}
+.fontstyle1{
+    font-family: "HankenGrotesk-Thin.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.icon{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.thinitalic{
+    border: 1px black solid;
+    width: 203px;
+    height: 96px;
+    
+}
+.fontstyle11{
+    font-family: "HankenGrotesk-ThinItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle2{
+    font-family: "HankenGrotesk-ExtraLight.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle22{
+    font-family: "HankenGrotesk-ExtraLightItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle3{
+    font-family: "HankenGrotesk-Light.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle33{
+    font-family: "HankenGrotesk-LightItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle4{
+    font-family: "HankenGrotesk-Regular.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle44{
+    font-family: "HankenGrotesk-Italic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle9{
+    font-family: "HankenGrotesk-Medium.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle99{
+    font-family: "HankenGrotesk-MediumItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle5{
+    font-family: "HankenGrotesk-SemiBold.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle55{
+    font-family: "HankenGrotesk-SemiBoldItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.c2{
+   margin-top: 681px;
+   margin-left: -825px;
+}
+.fontstyle6{
+    font-family: "HankenGrotesk-Bold.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle66{
+    font-family: "HankenGrotesk-BoldItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle7{
+    font-family: "HankenGrotesk-ExtraBold.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle77{
+    font-family: "HankenGrotesk-ExtraBoldItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle8{
+    font-family: "HankenGrotesk-Black.ttf";
+
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+.fontstyle88{
+    font-family: "HankenGrotesk-BlackItalic.ttf";
+    font-size: 24px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+
+
+
+.boxes{
+ 
+}
+
+.box6{
+    border: 3px black solid;
+    background-color:white;
+    width: 525px;
+    height: 128px;
+   
+}
+
+.ad{
+    border: 3px black solid;
+    width: 1063px;
+    height: 360px;
+    display: flex;
+    margin-left: 96px;
+}
+.adclock{
+    margin-left: 93px;
+}
+.adtext{
+   text-align: center;
+   margin-left: 153px; 
+   margin-top: 44px;
+}
+.wrist{
+    font-family: "HankenGrotesk-Thin.ttf";
+    font-size: 96px;
+}
+.off{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 64px;
+    margin-top: 30px;
+}
+.HK{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 24px;
+    margin-top: 89px;
+}
+.screen{
+    margin-left: 268px;
+}
+.block5{
+    display: flex;
+    flex-direction:column;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+}
+.rectangle1{
+    width: 200px;
+    height: 113px;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 38px;
+    
+}
+.rectangle2{
+    width: 22px;
+    height: 49px;
+    background-color: black;
+    margin-left: 89px;
+}
+.rope{
+ margin-top: -96px;
+ margin-left: 77px;
+ width: 112px;
+ height: 95px;
+}
+.bag{
+    border: 2px black solid;
+    background-color: white;
+    width: 265px;
+    height: 172px;
+    margin-left: 378px;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.always{
+    font-size: 32px;
+    margin-left: 60px;
+    margin-top: 52px;
+    text-transform:uppercase;
+    font-family: "HankenGrotesk-Medium.ttf"
+}
+.tick{
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: 6px;
+    text-transform:uppercase;
+    font-family: "HankenGrotesk-Light.ttf"
+}
+.bottom{
+    border: 1px black solid;
+    width: 263px;
+    margin-top: 35px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    border: 3px black solid;
+    height: 136px;
+    width: 1113px;
+    margin-left: 83px;
+}
+.b2{
+    border: 2px black solid;
+    margin-top: 66px;
+}
+.b3{
+    border: 2px black solid;
+    width: 1088px;
+    height: 349px;
+    margin-left: 95px;
+}
+.latin{
+    font-family: "HankenGrotesk-SemiBold.ttf";
+    font-size: 128px;
+    margin-left: 173px;
+    margin-top: 22px;
+}
+.tape{
+    display: flex;
+    flex-direction: row;
+    margin-top: -530px;
+}
+.rec1{
+    border: 1px black solid;
+    background-color: white;
+    width: 4px;
+    height: 50px;
+    margin-left: 92px;
+    border-radius: 3px;
+    
+}
+.rec2{
+    border: 1px black solid;
+    background-color: white;
+    width: 4px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: -285px;
+}
+.sansserif{
+    border: 2px black solid;
+    background-color: white;
+    rotate: 90deg;
+    width: 613px;
+    height: 41px;
+    margin-top: 295px;
+    margin-left: -285px;
+    border-radius: 7px  0px 0px 7px;
+ 
+}
+.sansserif p{
+    margin-top: 11.5px;
+    font-family: "HankenGrotesk-Regular.ttf";
+    font-size: 14px;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+.block6{
+    
+    margin-top: 256px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-left: 166px;
+}
+.userman1{
+    border: 1px black solid;
+    width: 312px;
+    height: 651px;
+    overflow: hidden;
+}
+.usermanual{
+    font-size: 40px;
+    font-family: "HankenGrotesk-Light.ttf";
+    margin-left: 18px;
+    margin-top: 31px;
+}
+.lan{
+    font-size: 36px;
+    font-family: "HankenGrotesk-Bold.ttf";
+    margin-left: 84px;
+    margin-top: 41px;
+}
+.sup{
+    font-size: 36px;
+    font-family: "HankenGrotesk-Bold.ttf";
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.uim{
+    width: 333px;
+    height: 369px;
+    margin-left: -31px;
+    margin-top: -10px
+    
+}
+.Af{
+    font-size: 14px;
+    font-family: "HankenGrotesk-Light.ttf";
+    line-height: 18.24px;
+    margin-left: 194px;
+    margin-top: -36px;
+}
+.userman2{
+    border: 1px black solid;
+    width: 312px;
+    height: 651px;
+    overflow: hidden;
+    margin-left: 38px;
+}
+.userman3{
+    border: 1px black solid;
+    width: 312px;
+    height: 651px;
+    overflow: hidden;
+    margin-left: 38px;
+}
+.usermanual3{
+    font-size: 40px;
+    font-family: "HankenGrotesk-Light.ttf";
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.lan3{
+    font-size: 36px;
+    font-family: "HankenGrotesk-Bold.ttf";
+    margin-left: 84px;
+    margin-top: 21px;
+    
+}
+.Af3{
+    font-size: 14px;
+    font-family: "HankenGrotesk-Light.ttf";
+    line-height: 18.24px;
+    margin-left: 194px;
+    margin-top: -36px;
+}
+
+.block7{
+    position: relative;
+    
+    width: 1280px;
+    overflow: hidden;
+}
+.u{
+    position: absolute;
+    top: 236px;
+    left: 20.8px;
+}
+.s{
+    position: absolute;
+    top:499px;
+    left: 396.49px;
+}
+.g{
+    position: absolute;
+    top: 479px;
+    left: 883.44px;
+}
+.k{
+    position: absolute;
+    top: 137px;
+    left: 932.31px;
+}
+.le{
+    position: absolute;
+    top: 0px;
+    left: 509px;
+}
+.details{
+    position: absolute;
+    font-size: 40px;
+    font-family: "HankenGrotesk-Light.ttf";
+    top: 377.66px;
+    left: 514.47px;
+}
+.footer{
+    
+    margin-top: 1045px;
+}
+.check1{
+    width: 262px;
+    height: 696px;
+    margin-top: -690px;
+   margin-left: 131px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.check{
+   /*margin-top: -790px;
+   margin-left: 131px;*/
+   
+}
+.shop{
+    margin-top:-650px;
+    font-size: 36px;
+    text-align: center;
+    font-family: "HankenGrotesk-Regular.ttf";
+    
+}
+.grotesk{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7px;
+} 
+.item1{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+.item2{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 7px;
+}
+.total{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+.thank{
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 81px;
+
+}
+.footer2{
+    position: absolute;
+    top: 990px;
+    left: 320px;
+}
+.come{
+    position: absolute;
+    font-family: "HankenGrotesk-Light.ttf";
+    font-size: 64px;
+    margin-left: 900px;
+    margin-top: -500px;
+}
+
+
+
